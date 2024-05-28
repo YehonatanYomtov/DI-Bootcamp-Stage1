@@ -1,0 +1,17 @@
+button:first-child {
+  background-color: black;
+  color: white;
+}
+
+button:nth-child(2) {
+  background-color: yellow;
+}
+
+/*
+  There are a few ways to select both button elements in this situation but this is the easiest: 
+*/
+
+button {
+  font-size: 28px;
+  font-family: Helvetica, "Times New Roman", sans-serif;
+}
