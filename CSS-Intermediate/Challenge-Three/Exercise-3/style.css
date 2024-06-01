@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .container {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  #red-divs-section div {
+    background-color: red;
+    width: 15vw;
+  }
+  
+  #blue-divs-section {
+    width: 85vw;
+  }
+  
+  #blue-divs-section div {
+    background-color: blue;
+    align-self: stretch;
+  }
+  
+  #blue-divs-section,
+  #red-divs-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .bottom-box {
+    background-color: yellow;
+  }
+  
+  #red-divs-section div,
+  #blue-divs-section div,
+  .bottom-box {
+    border: 0.4rem solid black;
+    height: 10rem;
+  }
+  
